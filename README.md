@@ -26,6 +26,6 @@ A structure of a transaction contains these fields:
 
 ## Model Selection
 Our goal is to detect whether a financial transaction is legitimate or fradulent so that financial enterprise and organization such as bank, fund, etc. can avoid false transaction, report to authorities for legal action,... We choose 3 Machine Learning models for this problem:
-1. Support Vector Machine
+1. Random Forest
 2. XGBoost
 3. Isolation Forest
