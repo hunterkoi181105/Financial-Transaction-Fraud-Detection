@@ -3,14 +3,13 @@ Machine Learning 251 HCMUT - ML in the hud
 
 ## Dataset
 URL: https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection
-```python
-import kagglehub
 
-# Download latest version
-path = kagglehub.dataset_download("aryan208/financial-transactions-dataset-for-fraud-detection")
-
-print("Path to dataset files:", path)
+## Download dataset
+```bash
+python download_dataset.py
 ```
+
+## Overview
 We use an open-source dataset from Kaggle with a usability of 10.0 and has thousands of downloading about financial transaction fraud detection. It has 18 features which include in a legitimate or fraudulent financial transaction. Overview, this dataset is fairly suitable for a basic Machine Learning project but still has some faults such as large amount of null data, data imbalance, etc. which can handle by data processing and featuring engineering. 
 
 **Dataset Description**
